@@ -1,4 +1,4 @@
-inv=int(input("Ingrese la inversión inicial: "))
+inv=float(input("Ingrese la inversión inicial: "))
 invx=int(input("Ingrese el número de meses que desea invertir: "))
 ganancia=(inv*0.02)+inv
 gan=(inv*0.02)
