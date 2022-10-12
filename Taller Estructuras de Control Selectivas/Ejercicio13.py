@@ -28,6 +28,18 @@ elif(mes_actual==mes_nacimiento):
 print("La edad es: ",edad)
 #Signos
 Signo=""
-if(dia_nacimiento>=21 and mes_nacimiento<=11)or(dia_nacimiento>=21 and mes_nacimiento<=12):
-    Signo = "Sagitario"
+if(dia_nacimiento>=22 and mes_nacimiento==11)or(dia_nacimiento>=21 and mes_nacimiento==12):
+    Signo="Sagitario"
+if(dia_nacimiento>=22 and mes_nacimiento==12)or(dia_nacimiento>=20 and mes_nacimiento==1):
+    Signo="Capricornio"
+if(dia_nacimiento>=21 and mes_nacimiento==1)or(dia_nacimiento>=19 and mes_nacimiento==2):
+    Signo="Acuario"
+if(dia_nacimiento>=20 and mes_nacimiento==2)or(dia_nacimiento>=19 and mes_nacimiento==3):
+    Signo="Piscis"
+if(dia_nacimiento>=21 and mes_nacimiento==3)or(dia_nacimiento>=20 and mes_nacimiento==4):
+    Signo="Aries"
+if(dia_nacimiento>=21 and mes_nacimiento==4)or(dia_nacimiento>=21 and mes_nacimiento==5):
+    Signo="Tauro"
+if(dia_nacimiento>=22 and mes_nacimiento==5)or(dia_nacimiento>=21 and mes_nacimiento==6):
+    Signo="Geminis"
 print("El signo es: ",Signo)
